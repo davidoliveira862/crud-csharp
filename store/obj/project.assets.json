@@ -896,19 +896,19 @@
     ]
   },
   "packageFolders": {
-    "/Users/matheusgonzalez/.nuget/packages/": {}
+    "C:\\Users\\Windows 10\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/matheusgonzalez/Documents/crud-csharp/store/store.csproj",
+      "projectUniqueName": "C:\\Users\\Windows 10\\Documents\\crud-csharp\\store\\store.csproj",
       "projectName": "store",
-      "projectPath": "/Users/matheusgonzalez/Documents/crud-csharp/store/store.csproj",
-      "packagesPath": "/Users/matheusgonzalez/.nuget/packages/",
-      "outputPath": "/Users/matheusgonzalez/Documents/crud-csharp/store/obj/",
+      "projectPath": "C:\\Users\\Windows 10\\Documents\\crud-csharp\\store\\store.csproj",
+      "packagesPath": "C:\\Users\\Windows 10\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Windows 10\\Documents\\crud-csharp\\store\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/matheusgonzalez/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\Windows 10\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net10.0"
@@ -980,7 +980,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/10.0.201/PortableRuntimeIdentifierGraph.json",
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.202/PortableRuntimeIdentifierGraph.json",
         "packagesToPrune": {
           "Microsoft.AspNetCore": "(,10.0.32767]",
           "Microsoft.AspNetCore.Antiforgery": "(,10.0.32767]",
