@@ -13,20 +13,20 @@ namespace store.Data
 
     public DbSet<Store> StoreImports { get; set; }
 
-    public override Task<int> SaveChangesAsync(CancellationToken cancellationToken = default)
-    {
-        var entries = ChangeTracker.Entries<Store>();
+    // public override Task<int> SaveChangesAsync(CancellationToken cancellationToken = default)
+    // {
+    //     var entries = ChangeTracker.Entries<Store>();
 
-        foreach (var entry in entries)
-        {
-            if (entry.State == EntityState.Added || entry.State == EntityState.Modified)
-            {
-                entry.Entity.Entrada = DateTime.Now;
-            }
-        }
+    //     foreach (var entry in entries)
+    //     {
+    //         if (entry.State == EntityState.Added || entry.State == EntityState.Modified)
+    //         {
+    //             entry.Entity.Entrada = DateTime.Now;
+    //         }
+    //     }
 
-        return base.SaveChangesAsync(cancellationToken);
-    }
+    //     return base.SaveChangesAsync(cancellationToken);
+    // }
 }
 
 }

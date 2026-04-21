@@ -1,2 +1,4 @@
 store/bin/
 store/obj/
+
+.env
