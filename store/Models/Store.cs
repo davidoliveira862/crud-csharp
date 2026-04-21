@@ -12,7 +12,7 @@ namespace store.Models
         public string Produto { get; set; }
         public double Preco { get; set; }
         public string Tamanho { get; set; }
-        public int Marca { get; set; }
+        public string Marca { get; set; }
         
     }
 }
