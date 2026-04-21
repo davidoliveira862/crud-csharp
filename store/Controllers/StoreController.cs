@@ -1,8 +1,10 @@
 using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using store.Data;
 using store.Models;
 
@@ -33,6 +35,14 @@ namespace store.Controllers
             await _appDbContext.SaveChangesAsync();
 
             return Created("Produto cadastrado com sucesso.", store);
+        }
+
+        [HttpGet]
+        public async Task<ActionResult<IEnumerator<Store>>> GetMethodStoreList()
+        {
+            var listStore = await _appDbContext.StoreImports.ToListAsync();
+
+            return Ok(listStore);
         }
     }
 }
